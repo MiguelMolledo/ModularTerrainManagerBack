@@ -5,7 +5,8 @@ app = FastAPI(title="ModularTerrainManager", version="1.0.0")
 
 # Include Routers
 app.include_router(users.router, prefix="/users", tags=["Users"])
-app.include_router(items.router, prefix="/items", tags=["Items"])
+app.include_router(projects.router, prefix="/projects", tags=["Items"])
+
 
 @app.get("/")
 def read_root():

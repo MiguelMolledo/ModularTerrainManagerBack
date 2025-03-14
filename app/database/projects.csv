@@ -1,0 +1,4 @@
+id,name,description,status,active
+1,Project A,A web development project.,In Progress,True
+2,Project B,A data analysis project.,Completed,False
+3,Project C,An AI-based project.,Pending,True

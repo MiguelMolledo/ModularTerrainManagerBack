@@ -1,0 +1,3 @@
+CREATE DATABASE molledomdb;
+USER molledom WITH ENCRYPTED PASSWORD 'molledom';
+GRANT ALL PRIVILEGES ON DATABASE molledomdb TO molledom;
